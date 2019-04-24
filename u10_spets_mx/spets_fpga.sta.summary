@@ -1,0 +1,725 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_cpu'
+Slack : -13.771
+TNS   : -2788.780
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -11.007
+TNS   : -772.373
+
+Type  : Slow 1200mV 85C Model Setup 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -6.621
+TNS   : -180.370
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -5.376
+TNS   : -236.590
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|Divider:inst|inst'
+Slack : -3.828
+TNS   : -30.005
+
+Type  : Slow 1200mV 85C Model Setup 'hcnt[8]'
+Slack : -1.719
+TNS   : -17.190
+
+Type  : Slow 1200mV 85C Model Setup 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.064
+TNS   : -1.656
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|Divider:inst|inst1'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 85C Model Setup 'spetskeyboard:spetskey|test'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'spetskeyboard:spetskey|rl_st'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'spetskeyboard:spetskey|mx_st'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|Divider:inst|inst2'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : -1.591
+TNS   : -1.880
+
+Type  : Slow 1200mV 85C Model Hold 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.391
+TNS   : -13.597
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|Divider:inst|inst'
+Slack : -1.029
+TNS   : -1.029
+
+Type  : Slow 1200mV 85C Model Hold 'clk_cpu'
+Slack : -0.949
+TNS   : -24.063
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.350
+TNS   : -1.038
+
+Type  : Slow 1200mV 85C Model Hold 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -0.104
+TNS   : -0.270
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|Divider:inst|inst1'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spetskeyboard:spetskey|test'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spetskeyboard:spetskey|rl_st'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spetskeyboard:spetskey|mx_st'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SPI:SD|Divider:inst|inst2'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hcnt[8]'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'SPI:SD|Divider:inst|inst'
+Slack : -4.330
+TNS   : -34.618
+
+Type  : Slow 1200mV 85C Model Recovery 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -3.285
+TNS   : -3.285
+
+Type  : Slow 1200mV 85C Model Recovery 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -2.945
+TNS   : -2.945
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_cpu'
+Slack : -2.941
+TNS   : -154.237
+
+Type  : Slow 1200mV 85C Model Recovery 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -2.426
+TNS   : -2.426
+
+Type  : Slow 1200mV 85C Model Recovery 'clock'
+Slack : -1.229
+TNS   : -42.905
+
+Type  : Slow 1200mV 85C Model Recovery 'T8080se:VM80|T80:u0|A[10]'
+Slack : -0.924
+TNS   : -1.735
+
+Type  : Slow 1200mV 85C Model Removal 'T8080se:VM80|T80:u0|A[10]'
+Slack : -3.503
+TNS   : -18.305
+
+Type  : Slow 1200mV 85C Model Removal 'SPI:SD|Divider:inst|inst'
+Slack : -0.053
+TNS   : -0.053
+
+Type  : Slow 1200mV 85C Model Removal 'clock'
+Slack : 0.040
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk_cpu'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 2.884
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 3.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 3.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.201
+TNS   : -506.554
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_cpu'
+Slack : -1.487
+TNS   : -474.353
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -1.487
+TNS   : -62.454
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst'
+Slack : -1.487
+TNS   : -16.357
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hcnt[8]'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.487
+TNS   : -13.922
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst1'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst2'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spetskeyboard:spetskey|mx_st'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spetskeyboard:spetskey|rl_st'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spetskeyboard:spetskey|test'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.929
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_cpu'
+Slack : -12.948
+TNS   : -2614.235
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -10.430
+TNS   : -722.119
+
+Type  : Slow 1200mV 0C Model Setup 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -6.079
+TNS   : -167.048
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.969
+TNS   : -215.018
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst'
+Slack : -3.706
+TNS   : -28.770
+
+Type  : Slow 1200mV 0C Model Setup 'hcnt[8]'
+Slack : -1.478
+TNS   : -14.780
+
+Type  : Slow 1200mV 0C Model Setup 'T8080se:VM80|T80:u0|A[10]'
+Slack : -0.993
+TNS   : -1.600
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst1'
+Slack : -0.014
+TNS   : -0.014
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'spetskeyboard:spetskey|test'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'spetskeyboard:spetskey|rl_st'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'spetskeyboard:spetskey|mx_st'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst2'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : -1.374
+TNS   : -1.638
+
+Type  : Slow 1200mV 0C Model Hold 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.134
+TNS   : -11.762
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst'
+Slack : -0.980
+TNS   : -0.980
+
+Type  : Slow 1200mV 0C Model Hold 'clk_cpu'
+Slack : -0.806
+TNS   : -20.220
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.486
+TNS   : -1.422
+
+Type  : Slow 1200mV 0C Model Hold 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -0.107
+TNS   : -0.308
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst1'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spetskeyboard:spetskey|test'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spetskeyboard:spetskey|rl_st'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spetskeyboard:spetskey|mx_st'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst2'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hcnt[8]'
+Slack : 0.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'SPI:SD|Divider:inst|inst'
+Slack : -4.097
+TNS   : -32.758
+
+Type  : Slow 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -2.998
+TNS   : -2.998
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_cpu'
+Slack : -2.827
+TNS   : -150.658
+
+Type  : Slow 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -2.697
+TNS   : -2.697
+
+Type  : Slow 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -2.201
+TNS   : -2.201
+
+Type  : Slow 1200mV 0C Model Recovery 'clock'
+Slack : -1.345
+TNS   : -46.960
+
+Type  : Slow 1200mV 0C Model Recovery 'T8080se:VM80|T80:u0|A[10]'
+Slack : -0.829
+TNS   : -1.615
+
+Type  : Slow 1200mV 0C Model Removal 'T8080se:VM80|T80:u0|A[10]'
+Slack : -3.273
+TNS   : -16.999
+
+Type  : Slow 1200mV 0C Model Removal 'SPI:SD|Divider:inst|inst'
+Slack : -0.173
+TNS   : -0.173
+
+Type  : Slow 1200mV 0C Model Removal 'clock'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk_cpu'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 2.661
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 3.077
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 3.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.201
+TNS   : -506.554
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_cpu'
+Slack : -1.487
+TNS   : -474.353
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -1.487
+TNS   : -62.454
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst'
+Slack : -1.487
+TNS   : -16.751
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.487
+TNS   : -15.701
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hcnt[8]'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst1'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst2'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|mx_st'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|rl_st'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|test'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.917
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.422
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_cpu'
+Slack : -5.276
+TNS   : -1028.960
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -4.531
+TNS   : -236.565
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.610
+TNS   : -113.367
+
+Type  : Fast 1200mV 0C Model Setup 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -2.303
+TNS   : -53.400
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst'
+Slack : -1.332
+TNS   : -9.596
+
+Type  : Fast 1200mV 0C Model Setup 'hcnt[8]'
+Slack : -0.148
+TNS   : -1.480
+
+Type  : Fast 1200mV 0C Model Setup 'T8080se:VM80|T80:u0|A[10]'
+Slack : 0.090
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst1'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'spetskeyboard:spetskey|rl_st'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'spetskeyboard:spetskey|test'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'spetskeyboard:spetskey|mx_st'
+Slack : 0.605
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.607
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SPI:SD|Divider:inst|inst2'
+Slack : 0.617
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : -0.928
+TNS   : -2.327
+
+Type  : Fast 1200mV 0C Model Hold 'clk_cpu'
+Slack : -0.593
+TNS   : -15.711
+
+Type  : Fast 1200mV 0C Model Hold 'T8080se:VM80|T80:u0|A[10]'
+Slack : -0.496
+TNS   : -4.787
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst'
+Slack : -0.395
+TNS   : -2.324
+
+Type  : Fast 1200mV 0C Model Hold 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -0.174
+TNS   : -2.089
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.149
+TNS   : -0.363
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -0.079
+TNS   : -0.079
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -0.045
+TNS   : -0.045
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst1'
+Slack : -0.026
+TNS   : -0.026
+
+Type  : Fast 1200mV 0C Model Hold 'spetskeyboard:spetskey|rl_st'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'spetskeyboard:spetskey|test'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'spetskeyboard:spetskey|mx_st'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SPI:SD|Divider:inst|inst2'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hcnt[8]'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_cpu'
+Slack : -1.389
+TNS   : -75.979
+
+Type  : Fast 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -1.269
+TNS   : -1.269
+
+Type  : Fast 1200mV 0C Model Recovery 'SPI:SD|Divider:inst|inst'
+Slack : -1.175
+TNS   : -9.395
+
+Type  : Fast 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -1.107
+TNS   : -1.107
+
+Type  : Fast 1200mV 0C Model Recovery 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -0.844
+TNS   : -0.844
+
+Type  : Fast 1200mV 0C Model Recovery 'T8080se:VM80|T80:u0|A[10]'
+Slack : -0.551
+TNS   : -0.551
+
+Type  : Fast 1200mV 0C Model Recovery 'clock'
+Slack : -0.472
+TNS   : -16.465
+
+Type  : Fast 1200mV 0C Model Removal 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.548
+TNS   : -8.315
+
+Type  : Fast 1200mV 0C Model Removal 'clock'
+Slack : -0.273
+TNS   : -9.347
+
+Type  : Fast 1200mV 0C Model Removal 'clk_cpu'
+Slack : -0.041
+TNS   : -2.626
+
+Type  : Fast 1200mV 0C Model Removal 'SPI:SD|Divider:inst|inst'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst45'
+Slack : 1.524
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst42'
+Slack : 1.756
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SPI:SD|SPIReg:inst1|inst44'
+Slack : 1.925
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_cpu'
+Slack : -1.000
+TNS   : -319.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -1.000
+TNS   : -230.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pit8253:t8253|pit8253_counterunit:cu1|outreg'
+Slack : -1.000
+TNS   : -42.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst'
+Slack : -1.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hcnt[8]'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'T8080se:VM80|T80:u0|A[10]'
+Slack : -1.000
+TNS   : -9.050
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|Divider:inst|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst42'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst44'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SPI:SD|SPIReg:inst1|inst45'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|mx_st'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|rl_st'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spetskeyboard:spetskey|test'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.597
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.461
+TNS   : 0.000
+
+------------------------------------------------------------

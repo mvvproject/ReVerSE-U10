@@ -1,0 +1,155 @@
+Flow report for z80soc
+Sun Nov 07 22:52:31 2010
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Sun Nov 07 22:52:30 2010    ;
+; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Full Version ;
+; Revision Name                      ; z80soc                                   ;
+; Top-level Entity Name              ; TOP_DE1                                  ;
+; Family                             ; Cyclone III                              ;
+; Device                             ; EP3C10E144C8                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; No                                       ;
+; Total logic elements               ; 2,430 / 10,320 ( 24 % )                  ;
+;     Total combinational functions  ; 2,376 / 10,320 ( 23 % )                  ;
+;     Dedicated logic registers      ; 519 / 10,320 ( 5 % )                     ;
+; Total registers                    ; 519                                      ;
+; Total pins                         ; 48 / 95 ( 51 % )                         ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 221,312 / 423,936 ( 52 % )               ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                           ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                           ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/07/2010 22:48:13 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; z80soc              ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                                                             ;
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                    ; Value                                                                                                                                                                                                                        ; Default Value ; Entity Name ; Section Id ;
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------+
+; AUTO_SHIFT_REGISTER_RECOGNITION    ; Off                                                                                                                                                                                                                          ; Auto          ; --          ; --         ;
+; COMPILER_SIGNATURE_ID              ; 130603490708.128916649202276                                                                                                                                                                                                 ; --            ; --          ; --         ;
+; ENABLE_ADVANCED_IO_TIMING          ; On                                                                                                                                                                                                                           ; --            ; --          ; --         ;
+; ENABLE_DA_RULE                     ; C101, C102, C103, C104, C105, C106, R101, R102, R103, R104, R105, T101, T102, A101, A102, A103, A104, A105, A106, A107, A108, A109, A110, S101, S102, S103, S104, D101, D102, D103, H101, H102, M101, M102, M103, M104, M105 ; --            ; --          ; --         ;
+; ENABLE_SIGNALTAP                   ; Off                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; FITTER_EFFORT                      ; Fast Fit                                                                                                                                                                                                                     ; Auto Fit      ; --          ; --         ;
+; IP_TOOL_NAME                       ; RAM: 2-PORT                                                                                                                                                                                                                  ; --            ; --          ; --         ;
+; IP_TOOL_NAME                       ; RAM: 2-PORT                                                                                                                                                                                                                  ; --            ; --          ; --         ;
+; IP_TOOL_NAME                       ; RAM: 1-PORT                                                                                                                                                                                                                  ; --            ; --          ; --         ;
+; IP_TOOL_NAME                       ; ROM: 1-PORT                                                                                                                                                                                                                  ; --            ; --          ; --         ;
+; IP_TOOL_NAME                       ; LPM_ROM                                                                                                                                                                                                                      ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                    ; 9.1                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                    ; 8.1                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                    ; 8.1                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                    ; 8.1                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                    ; 8.1                                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                                                                                                                                                                                           ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                                                                                                                                                                                            ; --            ; --          ; --         ;
+; MISC_FILE                          ; C:/Users/Ronivon/Desktop/FPGA Projetos/Z80SoC/V0.7/DE1/z80soc.dpf                                                                                                                                                            ; --            ; --          ; --         ;
+; MISC_FILE                          ; C:/Documents and Settings/iff2/Рабочий стол/V0.7/DE1/z80soc.dpf                                                                                                                                                              ; --            ; --          ; --         ;
+; MISC_FILE                          ; D:/V0.7/DE1/z80soc.dpf                                                                                                                                                                                                       ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/charram2k_inst.vhd                                                                                                                                                                                               ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/charram2k.cmp                                                                                                                                                                                                    ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/vram3200x8.bsf                                                                                                                                                                                                   ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/vram3200x8.cmp                                                                                                                                                                                                   ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/sram.bsf                                                                                                                                                                                                         ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/sram.cmp                                                                                                                                                                                                         ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/rom.bsf                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; MISC_FILE                          ; memoryCores/rom.cmp                                                                                                                                                                                                          ; --            ; --          ; --         ;
+; MISC_FILE                          ; G:/###/Reverse/fpga/V0.7/DE1/z80soc.dpf                                                                                                                                                                                      ; --            ; --          ; --         ;
+; MISC_FILE                          ; lpm_rom0.bsf                                                                                                                                                                                                                 ; --            ; --          ; --         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                                                                                                                                                                                         ; --            ; --          ; --         ;
+; OPTIMIZE_HOLD_TIMING               ; IO Paths and Minimum TPD Paths                                                                                                                                                                                               ; All Paths     ; --          ; --         ;
+; PARTITION_COLOR                    ; 2147039                                                                                                                                                                                                                      ; --            ; top_de1     ; Top        ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                                                                                                                                                                                       ; --            ; top_de1     ; Top        ;
+; SEARCH_PATH                        ; vhdl                                                                                                                                                                                                                         ; --            ; --          ; --         ;
+; SMART_RECOMPILE                    ; On                                                                                                                                                                                                                           ; Off           ; --          ; --         ;
+; TOP_LEVEL_ENTITY                   ; top_de1                                                                                                                                                                                                                      ; z80soc        ; --          ; --         ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                                                                                                                                                                          ; --            ; --          ; eda_palace ;
+; USE_SIGNALTAP_FILE                 ; stp1.stp                                                                                                                                                                                                                     ; --            ; --          ; --         ;
+; USE_TIMEQUEST_TIMING_ANALYZER      ; Off                                                                                                                                                                                                                          ; On            ; --          ; --         ;
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:02:35     ; 1.0                     ; 201 MB              ; 00:02:30                           ;
+; Fitter                  ; 00:01:01     ; 1.0                     ; 238 MB              ; 00:01:00                           ;
+; Assembler               ; 00:00:09     ; 1.0                     ; 172 MB              ; 00:00:08                           ;
+; Classic Timing Analyzer ; 00:00:10     ; 1.0                     ; 145 MB              ; 00:00:09                           ;
+; Total                   ; 00:03:55     ; --                      ; --                  ; 00:03:47                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                       ;
++-------------------------+------------------+------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis    ; aspire           ; Windows XP ; 5.1        ; i686           ;
+; Fitter                  ; aspire           ; Windows XP ; 5.1        ; i686           ;
+; Assembler               ; aspire           ; Windows XP ; 5.1        ; i686           ;
+; Classic Timing Analyzer ; aspire           ; Windows XP ; 5.1        ; i686           ;
++-------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off z80soc -c z80soc
+quartus_fit --read_settings_files=off --write_settings_files=off z80soc -c z80soc
+quartus_asm --read_settings_files=off --write_settings_files=off z80soc -c z80soc
+quartus_tan --read_settings_files=off --write_settings_files=off z80soc -c z80soc --timing_analysis_only
+
+
+

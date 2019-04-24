@@ -1,0 +1,581 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'cpu_clk'
+Slack : -17.104
+TNS   : -4754.206
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -15.616
+TNS   : -2499.876
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -14.993
+TNS   : -697.973
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -4.917
+TNS   : -20.604
+
+Type  : Slow 1200mV 85C Model Setup 'del[0]'
+Slack : -3.794
+TNS   : -114.654
+
+Type  : Slow 1200mV 85C Model Setup 'T80s:Z80|IORQ_n'
+Slack : -2.045
+TNS   : -297.584
+
+Type  : Slow 1200mV 85C Model Setup 'vcnt[8]'
+Slack : -1.257
+TNS   : -3.970
+
+Type  : Slow 1200mV 85C Model Setup 'zxkbd:zxkey|kempston[0]'
+Slack : -0.729
+TNS   : -0.729
+
+Type  : Slow 1200mV 85C Model Setup 'io_ps2_mouse:mouse|leftButton'
+Slack : -0.440
+TNS   : -0.440
+
+Type  : Slow 1200mV 85C Model Setup 'zxkbd:zxkey|f_key[11]'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'zxkbd:zxkey|f_key[12]'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'zxkbd:zxkey|f_key[9]'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'del[0]'
+Slack : -1.804
+TNS   : -34.489
+
+Type  : Slow 1200mV 85C Model Hold 'cpu_clk'
+Slack : -1.340
+TNS   : -19.244
+
+Type  : Slow 1200mV 85C Model Hold 'io_ps2_mouse:mouse|leftButton'
+Slack : -1.185
+TNS   : -1.185
+
+Type  : Slow 1200mV 85C Model Hold 'T80s:Z80|IORQ_n'
+Slack : -0.568
+TNS   : -19.862
+
+Type  : Slow 1200mV 85C Model Hold 'zxkbd:zxkey|kempston[0]'
+Slack : -0.514
+TNS   : -0.514
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.252
+TNS   : -1.218
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'zxkbd:zxkey|f_key[11]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'zxkbd:zxkey|f_key[12]'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vcnt[8]'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'zxkbd:zxkey|f_key[9]'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -11.821
+TNS   : -163.861
+
+Type  : Slow 1200mV 85C Model Recovery 'interr'
+Slack : -4.888
+TNS   : -4.888
+
+Type  : Slow 1200mV 85C Model Recovery 'cpu_clk'
+Slack : -1.702
+TNS   : -245.882
+
+Type  : Slow 1200mV 85C Model Recovery 'T80s:Z80|IORQ_n'
+Slack : -0.403
+TNS   : -25.219
+
+Type  : Slow 1200mV 85C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 30.057
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'T80s:Z80|IORQ_n'
+Slack : -4.223
+TNS   : -456.564
+
+Type  : Slow 1200mV 85C Model Removal 'cpu_clk'
+Slack : -1.545
+TNS   : -13.069
+
+Type  : Slow 1200mV 85C Model Removal 'interr'
+Slack : 2.654
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 7.059
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 38.738
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cpu_clk'
+Slack : -3.201
+TNS   : -581.746
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'T80s:Z80|IORQ_n'
+Slack : -1.487
+TNS   : -322.679
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'del[0]'
+Slack : -1.487
+TNS   : -66.915
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vcnt[8]'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'interr'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'io_ps2_mouse:mouse|leftButton'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[11]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[12]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[9]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'zxkbd:zxkey|kempston[0]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.656
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.852
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 285.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'cpu_clk'
+Slack : -16.208
+TNS   : -4491.202
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -14.224
+TNS   : -2270.310
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -13.961
+TNS   : -642.553
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -4.496
+TNS   : -18.499
+
+Type  : Slow 1200mV 0C Model Setup 'del[0]'
+Slack : -3.638
+TNS   : -107.305
+
+Type  : Slow 1200mV 0C Model Setup 'T80s:Z80|IORQ_n'
+Slack : -1.962
+TNS   : -274.468
+
+Type  : Slow 1200mV 0C Model Setup 'vcnt[8]'
+Slack : -1.069
+TNS   : -3.271
+
+Type  : Slow 1200mV 0C Model Setup 'zxkbd:zxkey|kempston[0]'
+Slack : -0.791
+TNS   : -0.791
+
+Type  : Slow 1200mV 0C Model Setup 'io_ps2_mouse:mouse|leftButton'
+Slack : -0.324
+TNS   : -0.324
+
+Type  : Slow 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[12]'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[11]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[9]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'del[0]'
+Slack : -1.600
+TNS   : -29.595
+
+Type  : Slow 1200mV 0C Model Hold 'cpu_clk'
+Slack : -1.172
+TNS   : -16.504
+
+Type  : Slow 1200mV 0C Model Hold 'io_ps2_mouse:mouse|leftButton'
+Slack : -1.015
+TNS   : -1.015
+
+Type  : Slow 1200mV 0C Model Hold 'T80s:Z80|IORQ_n'
+Slack : -0.555
+TNS   : -22.278
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.398
+TNS   : -1.931
+
+Type  : Slow 1200mV 0C Model Hold 'zxkbd:zxkey|kempston[0]'
+Slack : -0.321
+TNS   : -0.321
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[12]'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[11]'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vcnt[8]'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[9]'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -10.750
+TNS   : -148.172
+
+Type  : Slow 1200mV 0C Model Recovery 'interr'
+Slack : -4.477
+TNS   : -4.477
+
+Type  : Slow 1200mV 0C Model Recovery 'cpu_clk'
+Slack : -1.822
+TNS   : -270.860
+
+Type  : Slow 1200mV 0C Model Recovery 'T80s:Z80|IORQ_n'
+Slack : -0.759
+TNS   : -61.636
+
+Type  : Slow 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 30.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'T80s:Z80|IORQ_n'
+Slack : -3.817
+TNS   : -416.750
+
+Type  : Slow 1200mV 0C Model Removal 'cpu_clk'
+Slack : -1.331
+TNS   : -8.387
+
+Type  : Slow 1200mV 0C Model Removal 'interr'
+Slack : 2.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.295
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 38.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cpu_clk'
+Slack : -3.201
+TNS   : -581.801
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'T80s:Z80|IORQ_n'
+Slack : -1.487
+TNS   : -322.797
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'del[0]'
+Slack : -1.487
+TNS   : -66.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vcnt[8]'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'io_ps2_mouse:mouse|leftButton'
+Slack : -1.487
+TNS   : -1.501
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'interr'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[11]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[12]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[9]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|kempston[0]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.656
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.836
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 285.430
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'cpu_clk'
+Slack : -7.084
+TNS   : -1892.487
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.036
+TNS   : -325.261
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -6.835
+TNS   : -1052.932
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -2.488
+TNS   : -10.285
+
+Type  : Fast 1200mV 0C Model Setup 'del[0]'
+Slack : -1.331
+TNS   : -27.667
+
+Type  : Fast 1200mV 0C Model Setup 'T80s:Z80|IORQ_n'
+Slack : -0.395
+TNS   : -28.637
+
+Type  : Fast 1200mV 0C Model Setup 'zxkbd:zxkey|kempston[0]'
+Slack : -0.166
+TNS   : -0.166
+
+Type  : Fast 1200mV 0C Model Setup 'vcnt[8]'
+Slack : 0.065
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'io_ps2_mouse:mouse|leftButton'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[11]'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[12]'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'zxkbd:zxkey|f_key[9]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'del[0]'
+Slack : -1.145
+TNS   : -21.576
+
+Type  : Fast 1200mV 0C Model Hold 'cpu_clk'
+Slack : -0.841
+TNS   : -12.585
+
+Type  : Fast 1200mV 0C Model Hold 'io_ps2_mouse:mouse|leftButton'
+Slack : -0.713
+TNS   : -0.713
+
+Type  : Fast 1200mV 0C Model Hold 'zxkbd:zxkey|kempston[0]'
+Slack : -0.481
+TNS   : -0.481
+
+Type  : Fast 1200mV 0C Model Hold 'T80s:Z80|IORQ_n'
+Slack : -0.111
+TNS   : -0.480
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vcnt[8]'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[11]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[12]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'zxkbd:zxkey|f_key[9]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.109
+TNS   : -70.443
+
+Type  : Fast 1200mV 0C Model Recovery 'interr'
+Slack : -1.621
+TNS   : -1.621
+
+Type  : Fast 1200mV 0C Model Recovery 'cpu_clk'
+Slack : -0.712
+TNS   : -95.626
+
+Type  : Fast 1200mV 0C Model Recovery 'T80s:Z80|IORQ_n'
+Slack : -0.137
+TNS   : -2.956
+
+Type  : Fast 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 33.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'T80s:Z80|IORQ_n'
+Slack : -2.253
+TNS   : -267.920
+
+Type  : Fast 1200mV 0C Model Removal 'cpu_clk'
+Slack : -0.961
+TNS   : -45.552
+
+Type  : Fast 1200mV 0C Model Removal 'interr'
+Slack : 1.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.282
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 36.955
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu_clk'
+Slack : -1.000
+TNS   : -382.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'T80s:Z80|IORQ_n'
+Slack : -1.000
+TNS   : -217.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'del[0]'
+Slack : -1.000
+TNS   : -45.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vcnt[8]'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'interr'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'io_ps2_mouse:mouse|leftButton'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[11]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[12]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|f_key[9]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'zxkbd:zxkey|kempston[0]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.663
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.422
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 35.447
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 285.510
+TNS   : 0.000
+
+------------------------------------------------------------

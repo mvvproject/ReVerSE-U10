@@ -1,0 +1,21 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x08f9db87: atm_amerge + 0x3db87 (amerge_mini_merge + 0x3a7a7)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x08f9d322: atm_amerge + 0x3d322 (amerge_mini_merge + 0x39f42)
+	0x08fa430d: atm_amerge + 0x4430d (amerge_mini_merge + 0x40f2d)
+	0x08f6321d: atm_amerge + 0x321d
+	0x08f633f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917de8: ntdll + 0x17de8 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Thu Sep 30 09:39:13 2010</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>
+

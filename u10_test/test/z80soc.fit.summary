@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Nov 07 22:51:56 2010
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : z80soc
+Top-level Entity Name : TOP_DE1
+Family : Cyclone III
+Device : EP3C10E144C8
+Timing Models : Final
+Total logic elements : 2,430 / 10,320 ( 24 % )
+    Total combinational functions : 2,376 / 10,320 ( 23 % )
+    Dedicated logic registers : 519 / 10,320 ( 5 % )
+Total registers : 519
+Total pins : 48 / 95 ( 51 % )
+Total virtual pins : 0
+Total memory bits : 221,312 / 423,936 ( 52 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

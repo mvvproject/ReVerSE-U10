@@ -1,0 +1,451 @@
+Analysis & Synthesis report for spets_fpga
+Thu Dec 08 17:34:21 2011
+Quartus II Version 11.0 Build 157 04/27/2011 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis IP Cores Summary
+  5. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                   ;
++------------------------------------+-------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Thu Dec 08 17:34:21 2011         ;
+; Quartus II Version                 ; 11.0 Build 157 04/27/2011 SJ Full Version ;
+; Revision Name                      ; spets_fpga                                ;
+; Top-level Entity Name              ; spets_fpga                                ;
+; Family                             ; Cyclone III                               ;
+; Total logic elements               ; N/A until Partition Merge                 ;
+;     Total combinational functions  ; N/A until Partition Merge                 ;
+;     Dedicated logic registers      ; N/A until Partition Merge                 ;
+; Total registers                    ; N/A until Partition Merge                 ;
+; Total pins                         ; N/A until Partition Merge                 ;
+; Total virtual pins                 ; N/A until Partition Merge                 ;
+; Total memory bits                  ; N/A until Partition Merge                 ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                 ;
+; Total PLLs                         ; N/A until Partition Merge                 ;
++------------------------------------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C10E144C8       ;                    ;
+; Top-level entity name                                                      ; spets_fpga         ; spets_fpga         ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+The IP Core highlighted in red is outdated. Regenerate the outdated IP with the current version of the Quartus II software and the MegaWizard interface.
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                          ;
++--------+--------------+---------+--------------+--------------+---------------------------------+----------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                 ; IP Include File                              ;
++--------+--------------+---------+--------------+--------------+---------------------------------+----------------------------------------------+
+; Altera ; ALTPLL       ; N/A     ; N/A          ; N/A          ; |spets_fpga|altpll0:pll         ; D:/Reverse/u10/Spec_u10/fpga/altpll0.vhd     ;
+; Altera ; ROM: 1-PORT  ; 9.1     ; N/A          ; N/A          ; |spets_fpga|lpm_dos1:monitor2   ; D:/Reverse/u10/Spec_u10/fpga/lpm_dos1.vhd    ;
+; Altera ; ROM: 1-PORT  ; 9.1     ; N/A          ; N/A          ; |spets_fpga|lpm_dos2:ramfos     ; D:/Reverse/u10/Spec_u10/fpga/lpm_dos2.vhd    ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |spets_fpga|lpm_test_m:test_m   ; D:/Reverse/u10/Spec_u10/fpga/lpm_test_m.vhd  ;
+; Altera ; ROM: 1-PORT  ; 9.1     ; N/A          ; N/A          ; |spets_fpga|lpm_test_mx:test_mx ; D:/Reverse/u10/Spec_u10/fpga/lpm_test_mx.vhd ;
++--------+--------------+---------+--------------+--------------+---------------------------------+----------------------------------------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 11.0 Build 157 04/27/2011 SJ Full Version
+    Info: Processing started: Thu Dec 08 17:34:01 2011
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off spets_fpga -c spets_fpga
+Info: Only one processor detected - disabling parallel compilation
+Info: Found 1 design units, including 1 entities, in source file keyboard/ps2_keyboard.v
+    Info: Found entity 1: ps2_keyboard
+Info: Found 1 design units, including 1 entities, in source file keyboard/spetskeyboard.v
+    Info: Found entity 1: spetskeyboard
+Info: Found 2 design units, including 1 entities, in source file t80/t8080se.vhd
+    Info: Found design unit 1: T8080se-rtl
+    Info: Found entity 1: T8080se
+Info: Found 2 design units, including 1 entities, in source file t80/t80sef.vhd
+    Info: Found design unit 1: T80sef-rtl
+    Info: Found entity 1: T80sef
+Info: Found 2 design units, including 1 entities, in source file t80/t80se.vhd
+    Info: Found design unit 1: T80se-rtl
+    Info: Found entity 1: T80se
+Info: Found 2 design units, including 1 entities, in source file t80/t80_reg.vhd
+    Info: Found design unit 1: T80_Reg-rtl
+    Info: Found entity 1: T80_Reg
+Info: Found 1 design units, including 0 entities, in source file t80/t80_pack.vhd
+    Info: Found design unit 1: T80_Pack
+Info: Found 2 design units, including 1 entities, in source file t80/t80_mcode.vhd
+    Info: Found design unit 1: T80_MCode-rtl
+    Info: Found entity 1: T80_MCode
+Info: Found 2 design units, including 1 entities, in source file t80/t80_alu.vhd
+    Info: Found design unit 1: T80_ALU-rtl
+    Info: Found entity 1: T80_ALU
+Info: Found 2 design units, including 1 entities, in source file t80/t80.vhd
+    Info: Found design unit 1: T80-rtl
+    Info: Found entity 1: T80
+Info: Found 2 design units, including 1 entities, in source file altpll0.vhd
+    Info: Found design unit 1: altpll0-SYN
+    Info: Found entity 1: altpll0
+Info: Found 2 design units, including 1 entities, in source file lpm_dos1.vhd
+    Info: Found design unit 1: lpm_dos1-SYN
+    Info: Found entity 1: lpm_dos1
+Info: Found 2 design units, including 1 entities, in source file lpm_test_m.vhd
+    Info: Found design unit 1: lpm_test_m-SYN
+    Info: Found entity 1: lpm_test_m
+Info: Found 2 design units, including 1 entities, in source file lpm_dos2.vhd
+    Info: Found design unit 1: lpm_dos2-SYN
+    Info: Found entity 1: lpm_dos2
+Info: Found 2 design units, including 1 entities, in source file lpm_test_mx.vhd
+    Info: Found design unit 1: lpm_test_mx-SYN
+    Info: Found entity 1: lpm_test_mx
+Info: Found 2 design units, including 1 entities, in source file spets_fpga.vhd
+    Info: Found design unit 1: spets_fpga-spets_fpga_arch
+    Info: Found entity 1: spets_fpga
+Info: Found 1 design units, including 1 entities, in source file spi/spi.bdf
+    Info: Found entity 1: SPI
+Info: Found 1 design units, including 1 entities, in source file spi/spireg.bdf
+    Info: Found entity 1: SPIReg
+Info: Found 1 design units, including 1 entities, in source file spi/divider.bdf
+    Info: Found entity 1: Divider
+Info: Found 1 design units, including 1 entities, in source file spi/tri8.bdf
+    Info: Found entity 1: Tri8
+Info: Found 1 design units, including 1 entities, in source file spi/ms16x8.bdf
+    Info: Found entity 1: MS16X8
+Info: Found 1 design units, including 1 entities, in source file addrselector.bdf
+    Info: Found entity 1: AddrSelector
+Warning: Can't analyze file -- file pit8253.v is missing
+Info: Elaborating entity "spets_fpga" for the top level hierarchy
+Info: Elaborating entity "T8080se" for hierarchy "T8080se:VM80"
+Info: Elaborating entity "T80" for hierarchy "T8080se:VM80|T80:u0"
+Info: Elaborating entity "T80_MCode" for hierarchy "T8080se:VM80|T80:u0|T80_MCode:mcode"
+Info: Elaborating entity "T80_ALU" for hierarchy "T8080se:VM80|T80:u0|T80_ALU:alu"
+Info: Elaborating entity "T80_Reg" for hierarchy "T8080se:VM80|T80:u0|T80_Reg:Regs"
+Info: Elaborating entity "lpm_dos1" for hierarchy "lpm_dos1:monitor2"
+Info: Elaborating entity "altsyncram" for hierarchy "lpm_dos1:monitor2|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "lpm_dos1:monitor2|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "lpm_dos1:monitor2|altsyncram:altsyncram_component" with the following parameter:
+    Info: Parameter "address_aclr_a" = "NONE"
+    Info: Parameter "clock_enable_input_a" = "BYPASS"
+    Info: Parameter "clock_enable_output_a" = "BYPASS"
+    Info: Parameter "init_file" = "./roms/dos1.hex"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "lpm_type" = "altsyncram"
+    Info: Parameter "numwords_a" = "6234"
+    Info: Parameter "operation_mode" = "ROM"
+    Info: Parameter "outdata_aclr_a" = "NONE"
+    Info: Parameter "outdata_reg_a" = "CLOCK0"
+    Info: Parameter "widthad_a" = "13"
+    Info: Parameter "width_a" = "8"
+    Info: Parameter "width_byteena_a" = "1"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_2k91.tdf
+    Info: Found entity 1: altsyncram_2k91
+Info: Elaborating entity "altsyncram_2k91" for hierarchy "lpm_dos1:monitor2|altsyncram:altsyncram_component|altsyncram_2k91:auto_generated"
+Warning: Byte addressed memory initialization file "dos1.hex" was read in the word-addressed format
+Warning: Width of data items in "dos1.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 195 warnings, reporting 10
+    Warning: Data at line (1) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (2) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (3) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (4) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (5) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (6) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (7) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (8) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (9) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (10) of memory initialization file "dos1.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Info: Elaborating entity "lpm_test_m" for hierarchy "lpm_test_m:test_m"
+Info: Elaborating entity "altsyncram" for hierarchy "lpm_test_m:test_m|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "lpm_test_m:test_m|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "lpm_test_m:test_m|altsyncram:altsyncram_component" with the following parameter:
+    Info: Parameter "address_aclr_a" = "NONE"
+    Info: Parameter "clock_enable_input_a" = "BYPASS"
+    Info: Parameter "clock_enable_output_a" = "BYPASS"
+    Info: Parameter "init_file" = "./roms/test-m.hex"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "lpm_type" = "altsyncram"
+    Info: Parameter "numwords_a" = "2048"
+    Info: Parameter "operation_mode" = "ROM"
+    Info: Parameter "outdata_aclr_a" = "NONE"
+    Info: Parameter "outdata_reg_a" = "CLOCK0"
+    Info: Parameter "widthad_a" = "11"
+    Info: Parameter "width_a" = "8"
+    Info: Parameter "width_byteena_a" = "1"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_2r91.tdf
+    Info: Found entity 1: altsyncram_2r91
+Info: Elaborating entity "altsyncram_2r91" for hierarchy "lpm_test_m:test_m|altsyncram:altsyncram_component|altsyncram_2r91:auto_generated"
+Warning: Byte addressed memory initialization file "test-m.hex" was read in the word-addressed format
+Warning: Width of data items in "test-m.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 64 warnings, reporting 10
+    Warning: Data at line (1) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (2) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (3) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (4) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (5) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (6) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (7) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (8) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (9) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (10) of memory initialization file "test-m.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Info: Elaborating entity "lpm_dos2" for hierarchy "lpm_dos2:ramfos"
+Info: Elaborating entity "altsyncram" for hierarchy "lpm_dos2:ramfos|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "lpm_dos2:ramfos|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "lpm_dos2:ramfos|altsyncram:altsyncram_component" with the following parameter:
+    Info: Parameter "address_aclr_a" = "NONE"
+    Info: Parameter "clock_enable_input_a" = "BYPASS"
+    Info: Parameter "clock_enable_output_a" = "BYPASS"
+    Info: Parameter "init_file" = "./roms/dos2.hex"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "lpm_type" = "altsyncram"
+    Info: Parameter "numwords_a" = "27728"
+    Info: Parameter "operation_mode" = "ROM"
+    Info: Parameter "outdata_aclr_a" = "NONE"
+    Info: Parameter "outdata_reg_a" = "CLOCK0"
+    Info: Parameter "widthad_a" = "15"
+    Info: Parameter "width_a" = "8"
+    Info: Parameter "width_byteena_a" = "1"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_0m91.tdf
+    Info: Found entity 1: altsyncram_0m91
+Info: Elaborating entity "altsyncram_0m91" for hierarchy "lpm_dos2:ramfos|altsyncram:altsyncram_component|altsyncram_0m91:auto_generated"
+Warning: Byte addressed memory initialization file "dos2.hex" was read in the word-addressed format
+Warning: Width of data items in "dos2.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 866 warnings, reporting 10
+    Warning: Data at line (1) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (2) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (3) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (4) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (5) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (6) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (7) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (8) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (9) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (10) of memory initialization file "dos2.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Critical Warning: Memory depth (27728) in the design file differs from memory depth (27712) in the Memory Initialization File "D:/Reverse/u10/Spec_u10/fpga/roms/dos2.hex" -- setting initial value for remaining addresses to 0
+Info: Found 1 design units, including 1 entities, in source file db/decode_67a.tdf
+    Info: Found entity 1: decode_67a
+Info: Elaborating entity "decode_67a" for hierarchy "lpm_dos2:ramfos|altsyncram:altsyncram_component|altsyncram_0m91:auto_generated|decode_67a:rden_decode"
+Info: Found 1 design units, including 1 entities, in source file db/mux_tlb.tdf
+    Info: Found entity 1: mux_tlb
+Info: Elaborating entity "mux_tlb" for hierarchy "lpm_dos2:ramfos|altsyncram:altsyncram_component|altsyncram_0m91:auto_generated|mux_tlb:mux2"
+Info: Elaborating entity "lpm_test_mx" for hierarchy "lpm_test_mx:test_mx"
+Info: Elaborating entity "altsyncram" for hierarchy "lpm_test_mx:test_mx|altsyncram:altsyncram_component"
+Info: Elaborated megafunction instantiation "lpm_test_mx:test_mx|altsyncram:altsyncram_component"
+Info: Instantiated megafunction "lpm_test_mx:test_mx|altsyncram:altsyncram_component" with the following parameter:
+    Info: Parameter "address_aclr_a" = "NONE"
+    Info: Parameter "clock_enable_input_a" = "BYPASS"
+    Info: Parameter "clock_enable_output_a" = "BYPASS"
+    Info: Parameter "init_file" = "./roms/test_mx.hex"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "lpm_type" = "altsyncram"
+    Info: Parameter "numwords_a" = "2048"
+    Info: Parameter "operation_mode" = "ROM"
+    Info: Parameter "outdata_aclr_a" = "NONE"
+    Info: Parameter "outdata_reg_a" = "CLOCK0"
+    Info: Parameter "widthad_a" = "11"
+    Info: Parameter "width_a" = "8"
+    Info: Parameter "width_byteena_a" = "1"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_c0a1.tdf
+    Info: Found entity 1: altsyncram_c0a1
+Info: Elaborating entity "altsyncram_c0a1" for hierarchy "lpm_test_mx:test_mx|altsyncram:altsyncram_component|altsyncram_c0a1:auto_generated"
+Warning: Byte addressed memory initialization file "test_mx.hex" was read in the word-addressed format
+Warning: Width of data items in "test_mx.hex" is greater than the memory width. Wrapping data items to subsequent addresses. Found 64 warnings, reporting 10
+    Warning: Data at line (1) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (2) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (3) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (4) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (5) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (6) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (7) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (8) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (9) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+    Warning: Data at line (10) of memory initialization file "test_mx.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses.
+Info: Elaborating entity "altpll0" for hierarchy "altpll0:pll"
+Info: Elaborating entity "altpll" for hierarchy "altpll0:pll|altpll:altpll_component"
+Info: Elaborated megafunction instantiation "altpll0:pll|altpll:altpll_component"
+Info: Instantiated megafunction "altpll0:pll|altpll:altpll_component" with the following parameter:
+    Info: Parameter "bandwidth_type" = "AUTO"
+    Info: Parameter "clk0_divide_by" = "25"
+    Info: Parameter "clk0_duty_cycle" = "50"
+    Info: Parameter "clk0_multiply_by" = "17"
+    Info: Parameter "clk0_phase_shift" = "0"
+    Info: Parameter "compensate_clock" = "CLK0"
+    Info: Parameter "inclk0_input_frequency" = "20000"
+    Info: Parameter "intended_device_family" = "Cyclone III"
+    Info: Parameter "lpm_type" = "altpll"
+    Info: Parameter "operation_mode" = "NORMAL"
+    Info: Parameter "pll_type" = "AUTO"
+    Info: Parameter "port_activeclock" = "PORT_UNUSED"
+    Info: Parameter "port_areset" = "PORT_UNUSED"
+    Info: Parameter "port_clkbad0" = "PORT_UNUSED"
+    Info: Parameter "port_clkbad1" = "PORT_UNUSED"
+    Info: Parameter "port_clkloss" = "PORT_UNUSED"
+    Info: Parameter "port_clkswitch" = "PORT_UNUSED"
+    Info: Parameter "port_configupdate" = "PORT_UNUSED"
+    Info: Parameter "port_fbin" = "PORT_UNUSED"
+    Info: Parameter "port_inclk0" = "PORT_USED"
+    Info: Parameter "port_inclk1" = "PORT_UNUSED"
+    Info: Parameter "port_locked" = "PORT_UNUSED"
+    Info: Parameter "port_pfdena" = "PORT_UNUSED"
+    Info: Parameter "port_phasecounterselect" = "PORT_UNUSED"
+    Info: Parameter "port_phasedone" = "PORT_UNUSED"
+    Info: Parameter "port_phasestep" = "PORT_UNUSED"
+    Info: Parameter "port_phaseupdown" = "PORT_UNUSED"
+    Info: Parameter "port_pllena" = "PORT_UNUSED"
+    Info: Parameter "port_scanaclr" = "PORT_UNUSED"
+    Info: Parameter "port_scanclk" = "PORT_UNUSED"
+    Info: Parameter "port_scanclkena" = "PORT_UNUSED"
+    Info: Parameter "port_scandata" = "PORT_UNUSED"
+    Info: Parameter "port_scandataout" = "PORT_UNUSED"
+    Info: Parameter "port_scandone" = "PORT_UNUSED"
+    Info: Parameter "port_scanread" = "PORT_UNUSED"
+    Info: Parameter "port_scanwrite" = "PORT_UNUSED"
+    Info: Parameter "port_clk0" = "PORT_USED"
+    Info: Parameter "port_clk1" = "PORT_UNUSED"
+    Info: Parameter "port_clk2" = "PORT_UNUSED"
+    Info: Parameter "port_clk3" = "PORT_UNUSED"
+    Info: Parameter "port_clk4" = "PORT_UNUSED"
+    Info: Parameter "port_clk5" = "PORT_UNUSED"
+    Info: Parameter "port_clkena0" = "PORT_UNUSED"
+    Info: Parameter "port_clkena1" = "PORT_UNUSED"
+    Info: Parameter "port_clkena2" = "PORT_UNUSED"
+    Info: Parameter "port_clkena3" = "PORT_UNUSED"
+    Info: Parameter "port_clkena4" = "PORT_UNUSED"
+    Info: Parameter "port_clkena5" = "PORT_UNUSED"
+    Info: Parameter "port_extclk0" = "PORT_UNUSED"
+    Info: Parameter "port_extclk1" = "PORT_UNUSED"
+    Info: Parameter "port_extclk2" = "PORT_UNUSED"
+    Info: Parameter "port_extclk3" = "PORT_UNUSED"
+    Info: Parameter "width_clock" = "5"
+Info: Found 1 design units, including 1 entities, in source file db/altpll_7q72.tdf
+    Info: Found entity 1: altpll_7q72
+Info: Elaborating entity "altpll_7q72" for hierarchy "altpll0:pll|altpll:altpll_component|altpll_7q72:auto_generated"
+Info: Elaborating entity "spetskeyboard" for hierarchy "spetskeyboard:spetskey"
+Info: Elaborating entity "ps2_keyboard" for hierarchy "spetskeyboard:spetskey|ps2_keyboard:ps2_keyboard"
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(321): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(332): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(333): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(338): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(339): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(341): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(359): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(388): truncated value with size 32 to match size of target (13)
+Warning (10230): Verilog HDL assignment warning at ps2_keyboard.v(396): truncated value with size 32 to match size of target (9)
+Info: Elaborating entity "SPI" for hierarchy "SPI:SD"
+Info: Elaborating entity "Divider" for hierarchy "SPI:SD|Divider:inst"
+Info: Elaborating entity "SPIReg" for hierarchy "SPI:SD|SPIReg:inst1"
+Info: Elaborating entity "MS16X8" for hierarchy "SPI:SD|MS16X8:inst4"
+Info: Elaborating entity "AddrSelector" for hierarchy "AddrSelector:AS"
+Info: Elaborating entity "74138" for hierarchy "AddrSelector:AS|74138:inst10"
+Info: Elaborated megafunction instantiation "AddrSelector:AS|74138:inst10"
+Error: Node instance "t8253" instantiates undefined entity "pit8253" File: D:/Reverse/u10/Spec_u10/fpga/spets_fpga.vhd Line: 820
+Error: Quartus II Analysis & Synthesis was unsuccessful. 1 error, 59 warnings
+    Error: Peak virtual memory: 447 megabytes
+    Error: Processing ended: Thu Dec 08 17:34:21 2011
+    Error: Elapsed time: 00:00:20
+    Error: Total CPU time (on all processors): 00:00:19
+
+

@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.659 ns
+From           : SRAM_DQ[3]
+To             : T80se:z80_inst|T80:u0|IR[3]
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.900 ns
+From           : SRAM_nWE$latch
+To             : SRAM_nWE
+From Clock     : CLOCK_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.644 ns
+From           : PS2_KBDAT
+To             : ps2kbd:ps2_kbd_inst|keyboard:kbd_inst|READ_CHAR
+From Clock     : --
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK_50'
+Slack          : -7.231 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : ps2kbd:ps2_kbd_inst|caps[0]
+To             : ps2_ascii_reg1[2]
+From Clock     : video_PLL:video_PLL_inst|altpll:altpll_component|_clk0
+To Clock       : CLOCK_50
+Failed Paths   : 9
+
+Type           : Clock Setup: 'video_PLL:video_PLL_inst|altpll:altpll_component|_clk1'
+Slack          : 0.389 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : 52.02 MHz ( period = 19.222 ns )
+From           : vram_address[7]
+To             : vram3200x8:vram|altsyncram:altsyncram_component|altsyncram_7jk1:auto_generated|ram_block1a5~porta_address_reg0
+From Clock     : video_PLL:video_PLL_inst|altpll:altpll_component|_clk1
+To Clock       : video_PLL:video_PLL_inst|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'video_PLL:video_PLL_inst|altpll:altpll_component|_clk0'
+Slack          : 11.562 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : N/A
+From           : ps2kbd:ps2_kbd_inst|keyboard:kbd_inst|scan_code[3]
+To             : ps2kbd:ps2_kbd_inst|caps[1]
+From Clock     : CLOCK_50
+To Clock       : video_PLL:video_PLL_inst|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'video_PLL:video_PLL_inst|altpll:altpll_component|_clk0'
+Slack          : 0.646 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : N/A
+From           : clk_div:clkdiv_inst|count_100Khz[0]
+To             : clk_div:clkdiv_inst|count_100Khz[0]
+From Clock     : video_PLL:video_PLL_inst|altpll:altpll_component|_clk0
+To Clock       : video_PLL:video_PLL_inst|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'video_PLL:video_PLL_inst|altpll:altpll_component|_clk1'
+Slack          : 0.646 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : T80se:z80_inst|T80:u0|IntE_FF2
+To             : T80se:z80_inst|T80:u0|IntE_FF2
+From Clock     : video_PLL:video_PLL_inst|altpll:altpll_component|_clk1
+To Clock       : video_PLL:video_PLL_inst|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_50'
+Slack          : 0.646 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : ps2kbd:ps2_kbd_inst|keyboard:kbd_inst|INCNT[3]
+To             : ps2kbd:ps2_kbd_inst|keyboard:kbd_inst|INCNT[3]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 9
+
+--------------------------------------------------------------------------------------
+

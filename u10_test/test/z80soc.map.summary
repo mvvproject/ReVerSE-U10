@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 07 22:50:51 2010
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Full Version
+Revision Name : z80soc
+Top-level Entity Name : TOP_DE1
+Family : Cyclone III
+Total logic elements : 2,375
+    Total combinational functions : 2,375
+    Dedicated logic registers : 519
+Total registers : 519
+Total pins : 48
+Total virtual pins : 0
+Total memory bits : 221,312
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

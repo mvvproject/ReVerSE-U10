@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Dec 07 23:14:53 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : spets_fpga
+Top-level Entity Name : spets_fpga
+Family : Cyclone III
+Device : EP3C10E144C8
+Timing Models : Final
+Total logic elements : 1,936 / 10,320 ( 19 % )
+    Total combinational functions : 1,811 / 10,320 ( 18 % )
+    Dedicated logic registers : 659 / 10,320 ( 6 % )
+Total registers : 659
+Total pins : 51 / 95 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 304,528 / 423,936 ( 72 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

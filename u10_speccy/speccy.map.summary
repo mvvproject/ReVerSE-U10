@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Feb 10 12:23:09 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : speccy
+Top-level Entity Name : speccy
+Family : Cyclone III
+Total logic elements : 4,603
+    Total combinational functions : 4,095
+    Dedicated logic registers : 1,415
+Total registers : 1415
+Total pins : 51
+Total virtual pins : 0
+Total memory bits : 39,040
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

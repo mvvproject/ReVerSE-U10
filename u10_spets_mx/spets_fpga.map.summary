@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 17 09:43:57 2011
+Quartus II Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : spets_fpga
+Top-level Entity Name : spets_fpga
+Family : Cyclone III
+Total logic elements : 2,243
+    Total combinational functions : 2,003
+    Dedicated logic registers : 691
+Total registers : 691
+Total pins : 51
+Total virtual pins : 0
+Total memory bits : 304,464
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

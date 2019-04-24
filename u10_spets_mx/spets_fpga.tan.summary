@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.148 ns
+From           : ps2_data
+To             : spetskeyboard:spetskey|ps2_keyboard:ps2_keyboard|ps2_data_s
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.998 ns
+From           : SPI:SD|SPIReg:inst1|inst26~latch
+To             : mosi
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.246 ns
+From           : miso
+To             : SPI:SD|SPIReg:inst1|inst5~_emulated
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]'
+Slack          : 0.198 ns
+Required Time  : 34.00 MHz ( period = 29.411 ns )
+Actual Time    : 34.47 MHz ( period = 29.014 ns )
+From           : T8080se:VM80|T80:u0|A[13]
+To             : SPI:SD|SPIReg:inst1|inst23~_emulated
+From Clock     : altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]
+To Clock       : altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]'
+Slack          : -2.334 ns
+Required Time  : 34.00 MHz ( period = 29.411 ns )
+Actual Time    : N/A
+From           : T8080se:VM80|T80:u0|A[0]
+To             : AddrSelector:AS|inst9
+From Clock     : altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]
+To Clock       : altpll0:pll|altpll:altpll_component|altpll_or32:auto_generated|clk[0]
+Failed Paths   : 49
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 49
+
+--------------------------------------------------------------------------------------
+
